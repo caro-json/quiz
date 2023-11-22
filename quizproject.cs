@@ -52,11 +52,6 @@ namespace quiz  // Note: actual namespace depends on the project name.
                 }
             }
 
-            private static void StartGame()
-            {
-                Console.WriteLine("Välkommen till Quiz! Var vänlig gör ett val:");
-            }
-
             private static void PlayQuiz()
             {
                 Console.WriteLine("Välj ett quizämne:");
@@ -121,7 +116,10 @@ namespace quiz  // Note: actual namespace depends on the project name.
             }
 
 
-
+            private static void StartGame()
+            {
+                Console.WriteLine("Välkommen till Quiz! Var vänlig gör ett val:");
+            }
 
             public class MyClass
             {
